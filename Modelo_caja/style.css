@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;/*recalcula el tamaño para ajustarse a la pantalla y se ajusta a width 100%
+    solo considera la caja, el border y el padding*/
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid rgb(37, 158, 37);
+    padding: 20px 35px;
+    /*margin: 50px; se sale del 100%*/
+}
