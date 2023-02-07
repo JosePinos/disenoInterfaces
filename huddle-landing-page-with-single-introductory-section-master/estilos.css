@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    
+
+}
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+body{
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url("./images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(258, 41%, 49%);
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.wrapper{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 0;
+    margin: 0 2rem ;
+}
+
+.cabecera img{
+    width: 190px;
+    padding-bottom: 20px;
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.img-texto h1{
+    color: white;
+    font-family: "poppins",sans-serif;
+    margin-bottom: 30px;
+}
+
+.img-texto p{
+    color: white;
+    font-family: "Open sans",sans-serif;
+    margin-bottom: 30px;
+}
+
+.img-texto a{
+    display: inline-block;
+    font-family: "poppins",sans-serif;
+    color: purple;
+    text-decoration: none;
+    background-color: white;
+    padding: 13px 40px;
+    border-top-right-radius: 15px 15px;
+    border-top-left-radius: 15px 15px;
+    
+    border-bottom-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+}
+
+
+.redes-sociales{
+    text-align: right;
+}
+
+.redes-sociales a svg{
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
