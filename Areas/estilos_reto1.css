@@ -1,0 +1,20 @@
+
+.item1{
+    grid-area: myArea;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-areas: "myArea myArea myArea myArea myArea";
+    grid-gap: 10px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+
+.contenedor > div{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+}

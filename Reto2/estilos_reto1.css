@@ -1,0 +1,70 @@
+.contenedor{
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: 60px 60px;
+    grid-auto-flow: column;
+    
+    justify-content: center;
+
+
+
+}
+
+.item{
+    background-color: rgb(180, 187, 194);
+
+    position: relative;
+}
+
+
+
+.item:nth-child(1)
+{
+    background-color: rgb(87, 221, 46);
+    border-right: 1px solid black;
+}
+
+.item:nth-child(4)
+{
+    background-color: rgb(87, 221, 46);
+    
+}
+
+.item:nth-child(2)
+{
+    background-color: rgb(87, 221, 46);
+
+}
+
+.item:nth-child(3)
+{
+    background-color: rgb(87, 221, 46);
+}
+
+span{
+
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    right: 0;
+    padding: 0 10px;
+    position: absolute;
+}
+
+.item:nth-child(1) span{
+    background-color: rgb(16, 124, 43);
+}
+
+.item:nth-child(2) span{
+    background-color: rgb(16, 124, 43);
+}
+
+.item:nth-child(3) span{
+    background-color:  rgb(16, 124, 43);
+}
+
+
+.item:nth-child(4) span{
+    background-color: rgb(16, 124, 43);
+}
+
