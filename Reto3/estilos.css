@@ -1,0 +1,70 @@
+.contenedor{
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px;
+    grid-auto-flow: column;
+    
+    justify-content: center;
+
+    grid-template-areas: "basic1 lgreen1 lgreen1"
+                         "dgreen2 dgreen2 basic2"   
+                                            ;
+
+}
+
+.item{
+    background-color: rgb(141, 186, 232);
+
+    position: relative;
+}
+
+.item-a{
+    color: none;
+}
+
+.item-b{
+    color: none;
+}
+
+.contenedor .item-a{
+    grid-area: lgreen1;
+    background-color: rgb(44, 176, 66);
+}
+
+.contenedor .item-b{
+    grid-area: dgreen2;
+    background-color: rgb(15, 104, 29);
+}
+
+.item:nth-child(1),.item:nth-child(8),
+.item:nth-child(3){
+    background-color: greenyellow;
+}
+
+.item:nth-child(6){
+    background-color: rgb(44, 176, 66);
+}
+
+.item:nth-child(9){
+    background-color: rgb(15, 104, 29);
+}
+
+/*
+.item:nth-child(1),.item:nth-child(7),
+.item:nth-child(3),.item:nth-child(9)
+{
+    background-color: greenyellow;
+}
+
+.item:nth-child(2),.item:nth-child(4),
+.item:nth-child(6),.item:nth-child(8)
+{
+    background-color: rgb(6, 119, 20);
+}
+
+.item:nth-child(5){
+    background-color: rgb(6, 65, 6);
+}
+
+*/
